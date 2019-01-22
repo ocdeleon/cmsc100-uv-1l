@@ -38,3 +38,12 @@ Branches
 	> git branch <name of new branch>		#create a branch
 	> git checkout <new-feature>			#to move/switch to the branch
 	> git checkout -b <new branch name>		#creates a new branch and switches you to that branch
+
+
+Merging
+	- applying the changes in 1 branch to another branch
+	Source branch --> target branch
+
+
+	- git checkout <target branch>
+	- git merge >source branch> # merge changes from source branch
