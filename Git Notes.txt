@@ -1,0 +1,40 @@
+cd <location>
+
+cd title-name/
+
+git init	-- initialize git in folder
+
+git status
+
+touch <file>.<filetype>
+
+echo '<content' >> <txt file to insert>.txt
+
+git add -A 		-- add all files
+
+git commit				--opens an editor for the message
+
+git commit -m "string message"
+
+
+GitHub
+ocdeleon@up.edu.ph
+<oldpass>+1 (concat)
+ocdeleon
+
+
+
+Git + GitHub
+
+Basic Workflow
+	do some changes to file
+	> git add -A 				#adds all changed files to index
+	> git commit -m "message" 	#commits all files in index
+
+	(working directory is now clean)
+
+Branches
+	> git branch 							#shows available branches and current branch
+	> git branch <name of new branch>		#create a branch
+	> git checkout <new-feature>			#to move/switch to the branch
+	> git checkout -b <new branch name>		#creates a new branch and switches you to that branch
